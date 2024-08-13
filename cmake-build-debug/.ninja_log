@@ -1,0 +1,11 @@
+# ninja log v6
+8	663	7451278727032406	CMakeFiles/Fase_1.dir/main.cpp.obj	cae6e480ac1fce58
+666	986	7451278733603983	Fase_1.exe	c7c2a3561933651f
+19	573	7456557734294196	CMakeFiles/Fase_1.dir/Listas/Usuario.cpp.obj	569e787be30289e2
+25	601	7456557734364178	CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj	2949239d2053b725
+11	1896	7456557734229011	CMakeFiles/Fase_1.dir/main.cpp.obj	cae6e480ac1fce58
+1898	2041	7456557753097220	Fase_1.exe	37dbc892d052edb6
+17	567	7456567276121201	CMakeFiles/Fase_1.dir/Listas/Usuario.cpp.obj	569e787be30289e2
+22	606	7456567276171207	CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj	2949239d2053b725
+10	1858	7456567276061182	CMakeFiles/Fase_1.dir/main.cpp.obj	cae6e480ac1fce58
+1859	2009	7456567294532712	Fase_1.exe	37dbc892d052edb6

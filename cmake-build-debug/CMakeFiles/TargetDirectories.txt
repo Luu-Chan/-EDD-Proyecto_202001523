@@ -1,0 +1,3 @@
+C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/Fase 1/cmake-build-debug/CMakeFiles/Fase_1.dir
+C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/Fase 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/Fase 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
