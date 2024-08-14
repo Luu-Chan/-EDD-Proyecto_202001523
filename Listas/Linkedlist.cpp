@@ -3,6 +3,8 @@
 //
 #include "../Headers/Linkedlist.h"
 #include <iostream>
+#include <sstream>
+
 using namespace std;
 
 Linkedlist::Linkedlist() :  head(nullptr) {}
@@ -38,14 +40,6 @@ void Linkedlist::eliminar(const string& correoE) {
     }
 }
 
-void Linkedlist::imprimirLista() const {
-    Usuario* actual = head;
-    while (actual != nullptr) {
-        cout << "ID: " << actual->id << ", Nombre: " << actual->nombre << " " << actual->apellido << ", Correo: " << actual->correoE << endl;
-        actual = actual->siguiente;
-    }
-}
-
 Usuario* Linkedlist::buscarU(const string& correoE, const string& pass) const {
     Usuario* actual = head;
     while (actual != nullptr) {
@@ -66,4 +60,55 @@ int Linkedlist::obtenerSize() const {
     }
     return size;
 
+}
+
+void Linkedlist::registrarU(string nombres, string apellidos, string fecha, string mail, string pass) {
+
+    // Verificar si el correo ya existe
+    Usuario* usuarioExistente = buscarU(mail, "");
+    if (usuarioExistente != nullptr) {
+        cout << "El correo electrónico ya está registrado." << endl;
+        return;
+    }
+
+    // Validar la fecha de nacimiento
+    int dia, mes;
+    dia = std::stoi(fecha.substr(0, 2));
+
+    mes = std::stoi(fecha.substr(3, 2));
+
+    if (fecha[2] != '/' || fecha[5] != '/') {
+        cout << "Fecha no con formato no valido" << endl;
+        return ;
+    }
+    // Verificar validez del mes
+    if (mes < 1 || mes > 12) {
+        cout << "Mes no valido" << endl;
+        return ;
+    }
+    // Verificar validez del día según el mes
+    int diasPorMes[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+    if (dia < 1 || dia > diasPorMes[mes - 1]) {
+        cout << "Dia no valido" << endl;
+        return ;
+    }
+    if (pass.length() < 5) {
+        cout << "La contraseña debe tener al menos 5 caracteres." << endl;
+        return;
+    }
+
+    int Id = obtenerSize() + 1;
+
+    Usuario* nuevoUsuario = new Usuario(Id, nombres, apellidos, fecha, mail, pass);
+    agregar(nuevoUsuario);
+    cout << "Usuario registrado exitosamente." << endl;
+}
+
+void Linkedlist::imprimirLista() const {
+    Usuario* actual = head;
+    while (actual != nullptr) {
+        cout << "ID: " << actual->id << ", Nombre: " << actual->nombre << " " << actual->apellido << ", Correo: " << actual->correoE << endl;
+        actual = actual->siguiente;
+    }
 }

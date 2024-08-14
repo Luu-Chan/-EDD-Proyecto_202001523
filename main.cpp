@@ -1,13 +1,15 @@
 #include <iostream>
 #include <windows.h>
-
 #include "Headers/Linkedlist.h"
 #include "Headers/Usuario.h"
+#include <limits>
+#include <string>
+
 using namespace std;
 
 void mostrarMenu() {
     cout << "****************************" << endl;
-    cout << "         MENU LOGIN         " << endl;
+    cout << "         EDD FASE 1 :(         " << endl;
     cout << "****************************" << endl;
     cout << "1. Iniciar sesión" << endl;
     cout << "2. Registrarse" << endl;
@@ -17,12 +19,16 @@ void mostrarMenu() {
     cout << "Seleccione una opción: ";
 }
 
-
+Linkedlist list;
+string nombre;
+string apellidos;
+string mail;
+string pass;
+string fecha;
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
 
-    Linkedlist list;
 
     Usuario* prueba = new Usuario(1, "Luis", "Lopez", "1111/11/11", "hotmail", "123");
     list.agregar(prueba);
@@ -44,11 +50,28 @@ int main() {
             case 1:
                 cout << "Iniciando sesión..." << endl;
             break;
+
             case 2:
                 cout << "Registrando usuario..." << endl;
+
+
+            cout << "Ingrese sus nombres: ";
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer
+            getline(cin, nombre);
+            cout << "Ingrese sus apellidos: ";
+            getline(cin, apellidos);
+            cout << "Ingrese su fecha de nacimiento (DD/MM/AA): ";
+            getline(cin, fecha);
+            cout << "Ingrese su correo electrónico: ";
+            getline(cin, mail);
+            cout << "Ingrese su contraseña: ";
+            getline(cin, pass);
+            list.registrarU(nombre, apellidos, fecha, mail, pass);
             break;
+
             case 3:
                 cout << "Mostrando información..." << endl;
+                list.imprimirLista();
             break;
             case 4:
                 cout << "Saliendo del programa..." << endl;

@@ -7,4 +7,5 @@ add_executable(Fase_1 main.cpp
         Headers/Usuario.h
         Listas/Usuario.cpp
         Listas/Linkedlist.cpp
-        Headers/Linkedlist.h)
+        Headers/Linkedlist.h
+        Headers/pruebas.cpp)

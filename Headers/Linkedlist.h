@@ -19,7 +19,7 @@ public:
     void imprimirLista() const;
     Usuario* buscarU(const string& correoE, const string& pass) const;
     int obtenerSize() const;
-
+    void registrarU(string nombres, string apellidos, string fecha, string mail, string pass);
 };
 
 #endif //LINKEDLIST_H
