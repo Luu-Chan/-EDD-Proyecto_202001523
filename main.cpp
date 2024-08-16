@@ -30,9 +30,8 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
 
 
-    Usuario* prueba = new Usuario(1, "Luis", "Lopez", "1111/11/11", "hotmail", "123");
+    Usuario* prueba = new Usuario(1, "Skibidi", "Toilet", "1111/11/11", "admin", "edd");
     list.agregar(prueba);
-    list.imprimirLista();
 
 
     int opcion;
@@ -49,18 +48,22 @@ int main() {
         switch(opcion) {
             case 1:
                 cout << "Iniciando sesión..." << endl;
+                cout << "Ingrese su Correo" << endl;
+                cin >> mail;
+                cout << "Ingrese su Contraseña" << endl;
+                cin >> pass;
+                list.inicioSesion(mail,pass);
             break;
 
             case 2:
                 cout << "Registrando usuario..." << endl;
-
 
             cout << "Ingrese sus nombres: ";
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer
             getline(cin, nombre);
             cout << "Ingrese sus apellidos: ";
             getline(cin, apellidos);
-            cout << "Ingrese su fecha de nacimiento (DD/MM/AA): ";
+            cout << "Ingrese su fecha de nacimiento; DD/MM/AA: ";
             getline(cin, fecha);
             cout << "Ingrese su correo electrónico: ";
             getline(cin, mail);

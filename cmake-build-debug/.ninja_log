@@ -1,11 +1,15 @@
 # ninja log v6
-8	663	7451278727032406	CMakeFiles/Fase_1.dir/main.cpp.obj	cae6e480ac1fce58
-666	986	7451278733603983	Fase_1.exe	c7c2a3561933651f
-19	573	7456557734294196	CMakeFiles/Fase_1.dir/Listas/Usuario.cpp.obj	569e787be30289e2
-25	601	7456557734364178	CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj	2949239d2053b725
-11	1896	7456557734229011	CMakeFiles/Fase_1.dir/main.cpp.obj	cae6e480ac1fce58
-1898	2041	7456557753097220	Fase_1.exe	37dbc892d052edb6
-17	567	7456567276121201	CMakeFiles/Fase_1.dir/Listas/Usuario.cpp.obj	569e787be30289e2
-22	606	7456567276171207	CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj	2949239d2053b725
-10	1858	7456567276061182	CMakeFiles/Fase_1.dir/main.cpp.obj	cae6e480ac1fce58
-1859	2009	7456567294532712	Fase_1.exe	37dbc892d052edb6
+27	2070	7457446475920305	CMakeFiles/Fase_1.dir/main.cpp.obj	782f27944e8e8b0a
+31	1142	7457444785102895	CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj	115afa7fe9dcbb21
+546	672	7457388703502561	Fase_1.exe	a6e3c46ed639cb90
+42	178	7457257198097289	CMakeFiles/Fase_1.dir/Headers/pruebas.cpp.obj	f9341a0b2168ce5c
+38	1119	7457444785173421	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+26	962	7457257197944622	CMakeFiles/Fase_1.dir/Listas/Usuario.cpp.obj	30c07b836f4ba1d9
+30	617	7457448312916543	build.ninja	1c0365a09eb9003b
+30	495	7457386986635437	CMakeFiles/Fase_1.dir/Funciones/menuAdmin.cpp.obj	55d71d18b291da4c
+48	818	7457449354328293	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+41	937	7457449354253089	CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj	115afa7fe9dcbb21
+31	2567	7457449354152349	CMakeFiles/Fase_1.dir/main.cpp.obj	782f27944e8e8b0a
+20	598	7457450576330979	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+13	2134	7457450576255748	CMakeFiles/Fase_1.dir/main.cpp.obj	782f27944e8e8b0a
+2134	2276	7457450597472382	Fase_1.exe	177717e09b672d6c
