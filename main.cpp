@@ -5,6 +5,8 @@
 #include <limits>
 #include <string>
 
+Linkedlist list;
+
 using namespace std;
 
 void mostrarMenu() {
@@ -15,11 +17,11 @@ void mostrarMenu() {
     cout << "2. Registrarse" << endl;
     cout << "3. Información" << endl;
     cout << "4. Salir" << endl;
-    cout << "****************************" << endl;
+    cout << "****************************\n" << endl;
     cout << "Seleccione una opción: ";
 }
 
-Linkedlist list;
+
 string nombre;
 string apellidos;
 string mail;

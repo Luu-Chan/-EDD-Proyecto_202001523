@@ -4,7 +4,9 @@
 
 #ifndef MENUUSER_H
 #define MENUUSER_H
+#include <string>
 
-void menuAldo();
+using namespace std;
+void menuUser(const string& correoE);
 
 #endif //MENUUSER_H

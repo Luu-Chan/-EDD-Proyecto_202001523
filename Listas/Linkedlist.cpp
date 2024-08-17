@@ -51,6 +51,17 @@ Usuario* Linkedlist::buscarU(const string& correoE, const string& pass) const {
     return nullptr;
 }
 
+void Linkedlist::perfil(const string& correoE) const{
+    Usuario* actual = head;
+    while (actual != nullptr) {
+        if (actual->correoE == correoE) {
+            cout << "ID: " << actual->id << ", Nombre: " << actual->nombre << " " << actual->apellido << ", Correo: " << actual->correoE << endl;
+        }
+        actual = nullptr;
+    }
+}
+
+
 int Linkedlist::obtenerSize() const {
     int size = 0;
     Usuario* actual = head;
@@ -155,7 +166,7 @@ void Linkedlist::inicioSesion(const string& correoE, const string& pass) const {
             menuAd();
         } else {
             cout << "Iniciando sesión"  << endl;
-            menuAldo();
+            menuUser(correoE); //Se utiliza el correo como su clave de inicio de sesion
         }
     } else {
         cout << "Correo o contraseña incorrectos" << endl;

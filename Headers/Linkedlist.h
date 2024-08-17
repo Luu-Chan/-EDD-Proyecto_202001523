@@ -21,6 +21,7 @@ public:
     int obtenerSize() const;
     void registrarU(string nombres, string apellidos, string fecha, string mail, string pass);
     void inicioSesion(const string& correoE, const string& pass) const;
+    void perfil(const string& correoE) const;
 };
 
 #endif //LINKEDLIST_H
