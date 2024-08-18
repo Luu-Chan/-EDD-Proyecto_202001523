@@ -8,5 +8,6 @@
 
 using namespace std;
 void menuUser(const string& correoE);
+void menuAdmin();
 
 #endif //MENUUSER_H

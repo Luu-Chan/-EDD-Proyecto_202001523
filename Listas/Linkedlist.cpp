@@ -18,7 +18,7 @@ Linkedlist::~Linkedlist() {
     }
 }
 
-void Linkedlist::agregar(Usuario* nuevoUsuario) {
+void Linkedlist::agregar(Usuario* nuevoUsuario) { //Agrega nuevo usuario directamente sin validar nada
     nuevoUsuario->siguiente = head;
     head = nuevoUsuario;
 }
@@ -40,10 +40,11 @@ void Linkedlist::eliminar(const string& correoE) {
     }
 }
 
-Usuario* Linkedlist::buscarU(const string& correoE, const string& pass) const {
+Usuario* Linkedlist::buscarU(const string& correoE) const {
     Usuario* actual = head;
     while (actual != nullptr) {
-        if (actual->correoE == correoE && (pass.empty() || actual->pass == pass)) {
+        //Buscar usuario mediante su correo
+        if (actual->correoE == correoE) {
             return actual;
         }
         actual = actual->siguiente;
@@ -54,13 +55,12 @@ Usuario* Linkedlist::buscarU(const string& correoE, const string& pass) const {
 void Linkedlist::perfil(const string& correoE) const{
     Usuario* actual = head;
     while (actual != nullptr) {
-        if (actual->correoE == correoE) {
-            cout << "ID: " << actual->id << ", Nombre: " << actual->nombre << " " << actual->apellido << ", Correo: " << actual->correoE << endl;
+        if (actual->correoE == correoE) { //Muestra el perfil del usuario actual
+            cout << "Mis Datos: \n" " Nombre: " << actual->nombre << " " << actual->apellido << " Correo: " << actual->correoE << endl;
         }
         actual = nullptr;
     }
 }
-
 
 int Linkedlist::obtenerSize() const {
     int size = 0;
@@ -70,13 +70,12 @@ int Linkedlist::obtenerSize() const {
         actual = actual->siguiente;
     }
     return size;
-
 }
 
 void Linkedlist::registrarU(string nombres, string apellidos, string fecha, string mail, string pass) {
 
     // Verificar si el correo ya existe
-    Usuario* usuarioExistente = buscarU(mail, "");
+    Usuario* usuarioExistente = buscarU(mail);
     if (usuarioExistente != nullptr) {
         cout << "El correo electrónico ya está registrado." << endl;
         return;
@@ -116,56 +115,27 @@ void Linkedlist::registrarU(string nombres, string apellidos, string fecha, stri
     cout << "Usuario registrado exitosamente." << endl;
 }
 
-void menuAd() {
-    int opcion;
-    do {
-        cout << "MODULO ADMINISTRADOR" << endl;
-        cout << "1. Carga de usuarios" << endl;
-        cout << "2. Carga de relaciones" << endl;
-        cout << "3. Carga de publicaciones" << endl;
-        cout << "4. Gestionar usuarios" << endl;
-        cout << "5. Reportes" << endl;
-        cout << "6. Salir" << endl;
-        cout << "Seleccione una opción: ";
-        cin >> opcion;
-
-        switch(opcion) {
-            case 1:
-                cout << "Carga de usuarios" << endl;
-            break;
-            case 2:
-                cout << "Carga de relaciones" << endl;
-            break;
-            case 3:
-                cout << "Carga de publicaciones" << endl;
-            break;
-            case 4: {
-                cout << "1. Eliminar usuarios" << endl;
-                break;
-            }
-            case 5:
-                cout << "Reportes" << endl;
-            break;
-            case 6:
-                cout << "Regresando al menu principal" << endl;
-            break;
-            default:
-                cout << "Opción no válida" << endl;
+Usuario *Linkedlist::validarD(const string &correoE, const string &pass) const {
+    Usuario* actual = head;
+    while (actual != nullptr) {
+        //Validar credenciales
+        if (actual->correoE == correoE && actual->pass == pass) {
+            return actual;
         }
-
-    } while(opcion != 6);
+        actual = actual->siguiente;
+    }
+    return nullptr;
 }
-
 
 void Linkedlist::inicioSesion(const string& correoE, const string& pass) const {
 
-    Usuario* usuario = buscarU(correoE, pass);
+    Usuario* usuario = validarD(correoE, pass);
     if (usuario != nullptr) {
         if (usuario->correoE == "admin" && usuario->pass == "edd") {
-            cout << "Inicio exitoso...."  << endl;
-            menuAd();
+            cout << "Inicio administrador...\n"  << endl;
+            menuAdmin();
         } else {
-            cout << "Iniciando sesión"  << endl;
+            cout << "*********** Iniciando sesión ****************\n"  << endl;
             menuUser(correoE); //Se utiliza el correo como su clave de inicio de sesion
         }
     } else {
@@ -176,8 +146,9 @@ void Linkedlist::inicioSesion(const string& correoE, const string& pass) const {
 void Linkedlist::imprimirLista() const {
     Usuario* actual = head;
     while (actual != nullptr) {
-        cout << "ID: " << actual->id << ", Nombre: " << actual->nombre << " " << actual->apellido << ", Correo: " << actual->correoE << endl;
+        cout << "ID: " << actual->id << " Nombre: " << actual->nombre << " " << actual->apellido << " Correo: " << actual->correoE << endl;
         actual = actual->siguiente;
     }
 }
+
 

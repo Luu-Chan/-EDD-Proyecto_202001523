@@ -6,6 +6,8 @@
 #define USUARIOS_H
 
 #include <string>
+#include "ListaSolicitud.h"
+
 using namespace std;
 
 struct Usuario {
@@ -16,9 +18,14 @@ struct Usuario {
     string correoE;
     string pass;
     Usuario* siguiente;
+    ListaSolicitud solicitudesRecibidas;
+    ListaSolicitud solicitudesEnviadas;
 
     // Constructor para inicializar
     Usuario(int id, string name, string apelli, string fechaNa, string mail, string pass);
+
+
+
 };
 
 

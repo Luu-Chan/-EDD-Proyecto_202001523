@@ -11,4 +11,8 @@ add_executable(Fase_1 main.cpp
         Headers/pruebas.cpp
         Listas/menuUser.cpp
         Headers/menuUser.h
+        Headers/SolicitudAmistad.h
+        Listas/ListaSolicitud.cpp
+        Headers/ListaSolicitud.h
+        Headers/NodoS.h
 )

@@ -61,7 +61,7 @@ int main() {
                 cout << "Registrando usuario..." << endl;
 
             cout << "Ingrese sus nombres: ";
-            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer para que no falle en consola
             getline(cin, nombre);
             cout << "Ingrese sus apellidos: ";
             getline(cin, apellidos);
