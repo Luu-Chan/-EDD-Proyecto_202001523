@@ -2,10 +2,12 @@
 #include <windows.h>
 #include "Headers/Linkedlist.h"
 #include "Headers/Usuario.h"
+#include "Headers/ListPubliacion.h"
 #include <limits>
 #include <string>
 
 Linkedlist list;
+ListaPublicaciones listP;
 
 using namespace std;
 
@@ -64,7 +66,7 @@ int main() {
                 cout << "Registrando usuario..." << endl;
 
             cout << "Ingrese sus nombres: ";
-            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer para que no falle en consola
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer para que no pete
             getline(cin, nombre);
             cout << "Ingrese sus apellidos: ";
             getline(cin, apellidos);
@@ -78,7 +80,12 @@ int main() {
             break;
 
             case 3:
-                cout << "Mostrando información..." << endl;
+                cout << "Mostrando información...\n" << endl;
+            cout << "Nombre: Luis Gabriel Lopez Polanco "<< endl;
+            cout << "Carnet: 202001523 "<< endl;
+            cout << "Carrera: Ingenieria en Ciencias y Sistemas "<< endl;
+            cout << "Estructuras de Datos 2024 S2"<< endl;
+            cout << " \n"<< endl;
                 list.imprimirLista();
             break;
             case 4:

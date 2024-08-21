@@ -8,3 +8,16 @@
 30	495	7457386986635437	CMakeFiles/Fase_1.dir/Funciones/menuAdmin.cpp.obj	55d71d18b291da4c
 17	537	7459146592184325	build.ninja	1c0365a09eb9003b
 68	250	7459027765553887	CMakeFiles/Fase_1.dir/Listas/ListaSolicitud.cpp.obj	87e7c912ce3f81ba
+41	758	7459181118279108	CMakeFiles/Fase_1.dir/Listas/ListPublicacion.cpp.obj	f776478dc921345f
+35	769	7459181118223584	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+27	2252	7459181118153532	CMakeFiles/Fase_1.dir/main.cpp.obj	782f27944e8e8b0a
+2252	2400	7459181140396109	Fase_1.exe	a1188204d0742cb8
+25	540	7459182893884864	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+541	696	7459182899040305	Fase_1.exe	a1188204d0742cb8
+18	590	7459186323748920	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+11	2036	7459186323681904	CMakeFiles/Fase_1.dir/main.cpp.obj	782f27944e8e8b0a
+2036	2183	7459186343934245	Fase_1.exe	a1188204d0742cb8
+23	499	7459189079290383	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+500	635	7459189084061246	Fase_1.exe	a1188204d0742cb8
+31	559	7459191087534736	CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj	8a78827e9baf22e1
+559	710	7459191092815933	Fase_1.exe	a1188204d0742cb8

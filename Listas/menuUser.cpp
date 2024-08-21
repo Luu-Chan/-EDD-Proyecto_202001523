@@ -3,9 +3,11 @@
 //
 #include "../Headers/menuUser.h"
 #include "../Headers/Linkedlist.h"
-//#include "../Headers/Usuario.h"
+#include "../Headers/ListPubliacion.h"
 
 #include <iostream>
+#include <limits>
+extern ListaPublicaciones listP;
 extern Linkedlist list;
 using namespace std;
 
@@ -15,9 +17,9 @@ void menuUser(const string& correoE) {
     int opcion;
     do {
         cout << "\n ******************** BIENVENIDO *******************\n" << endl;
-        cout << "1. Perfil \n" << endl;
-        cout << "2. Enviar Solicitud \n" << endl;
-        cout << "3. Administrar Solicitudes \n" << endl;
+        cout << "1. Perfil " << endl;
+        cout << "2. Enviar Solicitud " << endl;
+        cout << "3. Administrar Solicitudes " << endl;
         cout << "4. Publicaciones" << endl;
         cout << "5. Reportes" << endl;
         cout << "6. Salir" << endl;
@@ -53,6 +55,7 @@ void menuUser(const string& correoE) {
 
                     case 3: {
                     }break;
+
                     default:
                         cout << "Opcion no valida" << endl;
                 }
@@ -60,16 +63,15 @@ void menuUser(const string& correoE) {
 
             case 2: {
                 cout << "Listado de Personas \n" << endl;
-
                 string persona;
                 list.imprimirLista();
 
                 cout << "Ingrese Correo de la persona a quien desee agregar: \n" << endl;
                 cin >> persona;
                 Usuario* receptor = list.buscarU(persona);
-
                 logger->enviarSolicitud(logger,receptor);
                 cout << "Ahora espere a que hacepte su solicitud. \n" << endl;
+
             }break;
 
             case 3: {
@@ -98,7 +100,41 @@ void menuUser(const string& correoE) {
                 }
             }break;
             case 4: {
-                cout << "Reportes \n" << endl;
+                int publi;
+                cout << "Publicaciones \n" << endl;
+                cout << "1. Agregar Publicacion "<< endl;
+                cout << "2. Eliminar Publicacion "<< endl;
+                cout << "3. Ver Publicaciones "<< endl;
+                cout << "4. Regresar "<< endl;
+                cin >> publi;
+
+                switch (publi) {
+                    case 1: {
+                        string contenido;
+                        // Vaciamos el buffer de entrada hasta encontrar un salto de línea
+                        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                        cout << "Ingrese su texto "<< endl;
+                        getline(cin,contenido);
+                        listP.agregarPublicacion(correoE,contenido);
+                        // Vaciamos el buffer de entrada porque el texto llena el buffer
+                        std::cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
+                    }break;
+
+                    case 2: {
+                        cout << "Elimine una "<< endl;
+                    }break;
+
+                    case 3: {
+                        cout << "Cargando publicaciones.... \n "<< endl;
+                        listP.navegarPublicaciones();
+                    }break;
+
+                    case 4:{}
+                        break;
+                    default: {
+                        cout << "Opcion no valida... "<< endl;
+                    }
+                }
                 break;
             }
             case 5: {
@@ -150,5 +186,3 @@ void menuAdmin() {
 
     } while(opcion != 6);
 }
-
-

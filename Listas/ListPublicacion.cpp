@@ -74,3 +74,30 @@ void ListaPublicaciones::agregarPublicacion(const std::string& correo, const std
             }
         } while (opcion != 'Q' && opcion != 'q');
     }
+
+void ListaPublicaciones::eliminarPublicacion(const std::string& correo) {
+    Publicacion* actual = cabeza;
+    while (actual) {
+        if (actual->correo == correo) {
+            // Eliminar la publicación
+            if (actual->anterior) {
+                actual->anterior->siguiente = actual->siguiente;
+            } else {
+                cabeza = actual->siguiente; // Era la primera
+            }
+
+            if (actual->siguiente) {
+                actual->siguiente->anterior = actual->anterior;
+            } else {
+                cola = actual->anterior; // Era la última
+            }
+
+            delete actual;
+            std::cout << "Publicación eliminada.\n";
+            return;
+        }
+        actual = actual->siguiente;
+    }
+
+    std::cout << "Publicación no encontrada o no pertenece a este usuario.\n";
+}
