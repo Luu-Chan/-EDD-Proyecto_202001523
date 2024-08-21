@@ -33,8 +33,11 @@ int main() {
 
 
     Usuario* prueba = new Usuario(1, "Skibidi", "Toilet", "1111/11/11", "admin", "edd");
+    Usuario* prueba2 = new Usuario(2, "Skibidi 2", "Toilet 2", "1111/11/11", "1234", "1234");
+    Usuario* prueba3 = new Usuario(1, "Tilino", "Insano", "1111/11/11", "4321", "4321");
     list.agregar(prueba);
-
+    list.agregar(prueba2);
+    list.agregar(prueba3);
 
     int opcion;
     do {

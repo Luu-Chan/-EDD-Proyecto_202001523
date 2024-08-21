@@ -21,10 +21,13 @@ struct Usuario {
     ListaSolicitud solicitudesRecibidas;
     ListaSolicitud solicitudesEnviadas;
 
+    bool enviarSolicitud(Usuario*emisor,  Usuario* receptor);
+    void aceptarSolicitud();
+    void rechazarSolicitud();
+    void mostrarSolicitudMasReciente() const;
+
     // Constructor para inicializar
     Usuario(int id, string name, string apelli, string fechaNa, string mail, string pass);
-
-
 
 };
 

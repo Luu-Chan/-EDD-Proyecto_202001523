@@ -4,7 +4,8 @@
 
 #ifndef SOLICITUDAMISTAS_H
 #define SOLICITUDAMISTAS_H
-#include "Usuario.h"
+
+struct Usuario;
 
 class SolicitudAmistad {
 public:

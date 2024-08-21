@@ -9,11 +9,8 @@
 
 class ListaSolicitud {
 
-private:
-    NodoSolicitud* cabeza;
-
 public:
-
+    NodoSolicitud* cabeza;
     ListaSolicitud();
     void agregarSolicitud( SolicitudAmistad* solicitud);
     void eliminarSolicitud(SolicitudAmistad* solicitud);
