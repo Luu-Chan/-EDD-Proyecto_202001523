@@ -15,11 +15,12 @@ void menuUser(const string& correoE) {
     int opcion;
     do {
         cout << "\n ******************** BIENVENIDO *******************\n" << endl;
-        cout << "1. Perfil" << endl;
-        cout << "2. Solicitudes" << endl;
-        cout << "3. Publicaciones" << endl;
-        cout << "4. Reportes" << endl;
-        cout << "5. Salir" << endl;
+        cout << "1. Perfil \n" << endl;
+        cout << "2. Enviar Solicitud \n" << endl;
+        cout << "3. Administrar Solicitudes \n" << endl;
+        cout << "4. Publicaciones" << endl;
+        cout << "5. Reportes" << endl;
+        cout << "6. Salir" << endl;
         cout << "Seleccione una opción: ";
         cin >> opcion;
 
@@ -39,28 +40,62 @@ void menuUser(const string& correoE) {
                         list.perfil(correoE);
                     }break;
                     case 2 : {
+                        string dell ;
                         cout << "Desea eliminar su cuenta? S/N" << endl;
+                        cin >> dell;
+                        if (dell == "S") {
+                            list.eliminar(correoE);
+                            cout << "¡¡¡¡¡SU USUARIO A SIDO BORRADO!!! \n" << endl;
+                            return;
+                        }
+                        cout << "Gracias por seguir en nuestra plataforma\n" << endl;
                     }break;
+
                     case 3: {
                     }break;
                     default:
                         cout << "Opcion no valida" << endl;
                 }
             }break;
+
             case 2: {
-                cout << "Solicitudes \n" << endl;
+                cout << "Listado de Personas \n" << endl;
+
                 string persona;
                 list.imprimirLista();
-                cout << "Ingrese Correo de la persona" << endl;
+
+                cout << "Ingrese Correo de la persona a quien desee agregar: \n" << endl;
                 cin >> persona;
                 Usuario* receptor = list.buscarU(persona);
 
                 logger->enviarSolicitud(logger,receptor);
-                cout << "ENVIADO PA" << endl;
+                cout << "Ahora espere a que hacepte su solicitud. \n" << endl;
             }break;
+
             case 3: {
-                cout << "Publicaciones \n" << endl;
+                cout << "Mostrando solicitudes:  \n" << endl;
                 logger->mostrarSolicitudMasReciente();
+                cout << "1. Aceptar Solicitud "<< endl;
+                cout << "2. Rechazar Solicitud "<< endl;
+                cout << "3. Regresar "<< endl;
+                int selec ;
+                cin >> selec;
+
+                switch (selec) {
+                    case  1: {
+                        logger->aceptarSolicitud();
+
+                    }break;
+
+                    case 2: {
+                        logger->rechazarSolicitud();
+                    }break;
+
+                    case 3:
+                        cout << "Regresando al Menu Principal \n "<< endl;
+                    default:
+                        cout << " Opcion no valida!"<< endl;
+                }
             }break;
             case 4: {
                 cout << "Reportes \n" << endl;
@@ -72,8 +107,9 @@ void menuUser(const string& correoE) {
             default:
                 cout << "Opción no válida" << endl;
         }
-    } while(opcion != 5);
+    } while(opcion != 6);
 }
+
 
 void menuAdmin() {
     int opcion;

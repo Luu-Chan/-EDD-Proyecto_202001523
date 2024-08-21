@@ -56,7 +56,7 @@ void Linkedlist::perfil(const string& correoE) const{
     Usuario* actual = head;
     while (actual != nullptr) {
         if (actual->correoE == correoE) { //Muestra el perfil del usuario actual
-            cout << "Mis Datos: \n" " Nombre: " << actual->nombre << " " << actual->apellido << " Correo: " << actual->correoE << endl;
+            cout << "Mis Datos: \n" " Nombre: " << actual->nombre << " " << actual->apellido << " " << "Cumpleanos: " << actual->fechaN << " " << " Correo: " << actual->correoE << " " << "Contrasena:" << actual->pass << endl;
         }
         actual = nullptr;
     }
@@ -146,7 +146,7 @@ void Linkedlist::inicioSesion(const string& correoE, const string& pass) const {
 void Linkedlist::imprimirLista() const {
     Usuario* actual = head;
     while (actual != nullptr) {
-        cout << "ID: " << actual->id << " Nombre: " << actual->nombre << " " << actual->apellido << " Correo: " << actual->correoE << endl;
+        cout << "Nombre: " << actual->nombre << " " << actual->apellido << " Correo: " << actual->correoE << endl;
         actual = actual->siguiente;
     }
 }

@@ -8,11 +8,13 @@ add_executable(Fase_1 main.cpp
         Listas/Usuario.cpp
         Listas/Linkedlist.cpp
         Headers/Linkedlist.h
-        Headers/pruebas.cpp
         Listas/menuUser.cpp
         Headers/menuUser.h
         Headers/SolicitudAmistad.h
         Listas/ListaSolicitud.cpp
         Headers/ListaSolicitud.h
         Headers/NodoS.h
+        Headers/Publicacion.h
+        Headers/ListPubliacion.h
+        Listas/ListPublicacion.cpp
 )
