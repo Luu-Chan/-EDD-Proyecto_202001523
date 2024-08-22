@@ -17,4 +17,6 @@ add_executable(Fase_1 main.cpp
         Headers/Publicacion.h
         Headers/ListPubliacion.h
         Listas/ListPublicacion.cpp
+        Headers/CargaMasiva.h
+        Listas/CargaMasiva.cpp
 )

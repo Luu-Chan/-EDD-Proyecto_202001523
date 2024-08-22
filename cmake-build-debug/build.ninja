@@ -85,6 +85,12 @@ build CMakeFiles/Fase_1.dir/Listas/ListPublicacion.cpp.obj: CXX_COMPILER__Fase_1
   OBJECT_DIR = CMakeFiles\Fase_1.dir
   OBJECT_FILE_DIR = CMakeFiles\Fase_1.dir\Listas
 
+build CMakeFiles/Fase_1.dir/Listas/CargaMasiva.cpp.obj: CXX_COMPILER__Fase_1_unscanned_Debug C$:/Users/linkm/OneDrive/Escritorio/PROYECTOS$ S2$ 2024/ESTRUCTURA$ DE$ DATOS/-EDD-Proyecto_202001523/Listas/CargaMasiva.cpp || cmake_object_order_depends_target_Fase_1
+  DEP_FILE = CMakeFiles\Fase_1.dir\Listas\CargaMasiva.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Fase_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fase_1.dir\Listas
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Fase_1
@@ -93,7 +99,7 @@ build CMakeFiles/Fase_1.dir/Listas/ListPublicacion.cpp.obj: CXX_COMPILER__Fase_1
 #############################################
 # Link the executable Fase_1.exe
 
-build Fase_1.exe: CXX_EXECUTABLE_LINKER__Fase_1_Debug CMakeFiles/Fase_1.dir/main.cpp.obj CMakeFiles/Fase_1.dir/Listas/Usuario.cpp.obj CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj CMakeFiles/Fase_1.dir/Listas/ListaSolicitud.cpp.obj CMakeFiles/Fase_1.dir/Listas/ListPublicacion.cpp.obj
+build Fase_1.exe: CXX_EXECUTABLE_LINKER__Fase_1_Debug CMakeFiles/Fase_1.dir/main.cpp.obj CMakeFiles/Fase_1.dir/Listas/Usuario.cpp.obj CMakeFiles/Fase_1.dir/Listas/Linkedlist.cpp.obj CMakeFiles/Fase_1.dir/Listas/menuUser.cpp.obj CMakeFiles/Fase_1.dir/Listas/ListaSolicitud.cpp.obj CMakeFiles/Fase_1.dir/Listas/ListPublicacion.cpp.obj CMakeFiles/Fase_1.dir/Listas/CargaMasiva.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Fase_1.dir

@@ -1,0 +1,32 @@
+{
+  "usuarios": [
+    {
+      "nombres": "Juan",
+      "apellidos": "Pérez",
+      "fecha_de_nacimiento": "1990-01-01",
+      "correo": "juan.perez@example.com",
+      "contraseña": "password123"
+    },
+    {
+      "nombres": "María",
+      "apellidos": "García",
+      "fecha_de_nacimiento": "1985-05-15",
+      "correo": "maria.garcia@example.com",
+      "contraseña": "securepassword"
+    },
+    {
+      "nombres": "El Tilin",
+      "apellidos": "Insano",
+      "fecha_de_nacimiento": "1990-02-12",
+      "correo": "tilin.insano@example.com",
+      "contraseña": "mypassword"
+    },
+    {
+      "nombres": "La Queso",
+      "apellidos": "Soporte",
+      "fecha_de_nacimiento": "2001-01-01",
+      "correo": "ylaqueso@example.com",
+      "contraseña": "password"
+    }
+  ]
+}

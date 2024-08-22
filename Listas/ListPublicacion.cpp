@@ -5,7 +5,7 @@
 #include <string>
 #include <ctime>
 #include <iostream>
-
+#include <string>
 
 void ListaPublicaciones::agregarPublicacion(const std::string& correo, const std::string& contenido) {
         // Obtener la fecha y hora actuales
@@ -100,4 +100,19 @@ void ListaPublicaciones::eliminarPublicacion(const std::string& correo) {
     }
 
     std::cout << "Publicación no encontrada o no pertenece a este usuario.\n";
+}
+
+void ListaPublicaciones::agregarPublicacionM(const std::string &correo, const std::string &contenido, const std::string &fecha, const std::string &hora) {
+
+
+    Publicacion* nuevaPublicacion = new Publicacion(correo, contenido, fecha, hora);
+
+    if (!cabeza) {
+        cabeza = cola = nuevaPublicacion;
+    } else {
+        cola->siguiente = nuevaPublicacion;
+        nuevaPublicacion->anterior = cola;
+        cola = nuevaPublicacion;
+    }
+    std::cout << "Publicación creada por: " << correo << " el " << fecha << " a las " << hora << ".\n";
 }

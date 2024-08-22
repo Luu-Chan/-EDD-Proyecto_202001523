@@ -23,7 +23,6 @@ void mostrarMenu() {
     cout << "Seleccione una opción: ";
 }
 
-
 string nombre;
 string apellidos;
 string mail;
@@ -32,7 +31,6 @@ string fecha;
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
-
 
     Usuario* prueba = new Usuario(1, "Skibidi", "Toilet", "1111/11/11", "admin", "edd");
     Usuario* prueba2 = new Usuario(2, "Skibidi 2", "Toilet 2", "1111/11/11", "1234", "1234");
@@ -74,6 +72,7 @@ int main() {
             getline(cin, fecha);
             cout << "Ingrese su correo electrónico: ";
             getline(cin, mail);
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             cout << "Ingrese su contraseña: ";
             getline(cin, pass);
             list.registrarU(nombre, apellidos, fecha, mail, pass);
@@ -86,7 +85,6 @@ int main() {
             cout << "Carrera: Ingenieria en Ciencias y Sistemas "<< endl;
             cout << "Estructuras de Datos 2024 S2"<< endl;
             cout << " \n"<< endl;
-                list.imprimirLista();
             break;
             case 4:
                 cout << "Saliendo del programa..." << endl;

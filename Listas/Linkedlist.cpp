@@ -58,7 +58,7 @@ void Linkedlist::perfil(const string& correoE) const{
         if (actual->correoE == correoE) { //Muestra el perfil del usuario actual
             cout << "Mis Datos: \n" " Nombre: " << actual->nombre << " " << actual->apellido << " " << "Cumpleanos: " << actual->fechaN << " " << " Correo: " << actual->correoE << " " << "Contrasena:" << actual->pass << endl;
         }
-        actual = nullptr;
+        actual = actual->siguiente;
     }
 }
 

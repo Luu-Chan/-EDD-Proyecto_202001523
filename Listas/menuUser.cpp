@@ -4,9 +4,10 @@
 #include "../Headers/menuUser.h"
 #include "../Headers/Linkedlist.h"
 #include "../Headers/ListPubliacion.h"
-
+#include "../Headers/CargaMasiva.h"
 #include <iostream>
 #include <limits>
+
 extern ListaPublicaciones listP;
 extern Linkedlist list;
 using namespace std;
@@ -75,7 +76,7 @@ void menuUser(const string& correoE) {
             }break;
 
             case 3: {
-                cout << "Mostrando solicitudes:  \n" << endl;
+                cout << "********** Mostrando solicitudes:  ********\n" << endl;
                 logger->mostrarSolicitudMasReciente();
                 cout << "1. Aceptar Solicitud "<< endl;
                 cout << "2. Rechazar Solicitud "<< endl;
@@ -100,8 +101,9 @@ void menuUser(const string& correoE) {
                 }
             }break;
             case 4: {
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                 int publi;
-                cout << "Publicaciones \n" << endl;
+                cout << "************ Publicaciones ***************\n" << endl;
                 cout << "1. Agregar Publicacion "<< endl;
                 cout << "2. Eliminar Publicacion "<< endl;
                 cout << "3. Ver Publicaciones "<< endl;
@@ -121,11 +123,12 @@ void menuUser(const string& correoE) {
                     }break;
 
                     case 2: {
-                        cout << "Elimine una "<< endl;
+                        cout << "Eliminando publicaciones.... "<< endl;
                     }break;
 
                     case 3: {
                         cout << "Cargando publicaciones.... \n "<< endl;
+                        std::cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
                         listP.navegarPublicaciones();
                     }break;
 
@@ -150,7 +153,7 @@ void menuUser(const string& correoE) {
 void menuAdmin() {
     int opcion;
     do {
-        cout << "MODULO ADMINISTRADOR" << endl;
+        cout << "************ MODULO ADMINISTRADOR *************\n" << endl;
         cout << "1. Carga de usuarios" << endl;
         cout << "2. Carga de relaciones" << endl;
         cout << "3. Carga de publicaciones" << endl;
@@ -161,17 +164,39 @@ void menuAdmin() {
         cin >> opcion;
 
         switch(opcion) {
-            case 1:
-                cout << "Carga de usuarios" << endl;
-            break;
-            case 2:
-                cout << "Carga de relaciones" << endl;
-            break;
-            case 3:
-                cout << "Carga de publicaciones" << endl;
-            break;
+            case 1: {
+                std::cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
+                cout << "Carga de usuarios\n" << endl;
+                string ruta;
+                cout << "Ingrese la ruta del Archivo" << endl;
+                getline(cin,ruta );
+                cargaUsuarios(ruta);
+            }break;
+            case 2: {
+                cout << "Carga de Solicitudes" << endl;
+                std::cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
+                string ruta;
+                cout << "Ingrese la ruta del Archivo" << endl;
+                getline(cin,ruta);
+                cargaSolicitud(ruta);
+            }break;
+            case 3: {
+                cout << "Carga de publicaciones \n" << endl;
+                std::cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
+                string ruta;
+                cout << "Ingrese la ruta del Archivo" << endl;
+                getline(cin,ruta);
+                cargaPubli(ruta);
+            }break;
             case 4: {
+                std::cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
+                string user;
                 cout << "1. Eliminar usuarios" << endl;
+                list.imprimirLista();
+                cout << "Ingrese el correo del usuario a Eliminar" << endl;
+                getline(cin, user);
+                list.eliminar(user);
+                cout << "Usuario eliminado!!\n"<< endl;
                 break;
             }
             case 5:
