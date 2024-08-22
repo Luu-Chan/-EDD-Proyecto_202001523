@@ -29,6 +29,7 @@ void menuUser(const string& correoE) {
 
         switch(opcion) {
             case 1: {
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer para que no pete
                 cout << "Seleccione algo" << endl;
                 cout << " 1. Ver mi Perfil" << endl;
                 cout << " 2. Eliminar mi cuenta" << endl;
@@ -36,11 +37,11 @@ void menuUser(const string& correoE) {
                 cout << ">>>>>>>>>" << endl;
                 int opc ;
                 cin >> opc;
-
                 switch (opc) {
                     case 1: {
                         cout << "********* Mi perfil ********* \n" << endl;
                         list.perfil(correoE);
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     }break;
                     case 2 : {
                         string dell ;
@@ -49,6 +50,7 @@ void menuUser(const string& correoE) {
                         if (dell == "S") {
                             list.eliminar(correoE);
                             cout << "¡¡¡¡¡SU USUARIO A SIDO BORRADO!!! \n" << endl;
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer para que no pete
                             return;
                         }
                         cout << "Gracias por seguir en nuestra plataforma\n" << endl;
@@ -72,6 +74,7 @@ void menuUser(const string& correoE) {
                 Usuario* receptor = list.buscarU(persona);
                 logger->enviarSolicitud(logger,receptor);
                 cout << "Ahora espere a que hacepte su solicitud. \n" << endl;
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer para que no pete
 
             }break;
 
@@ -113,7 +116,7 @@ void menuUser(const string& correoE) {
                 switch (publi) {
                     case 1: {
                         string contenido;
-                        // Vaciamos el buffer de entrada hasta encontrar un salto de línea
+                        // Vaciamos el buffer de entrada
                         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                         cout << "Ingrese su texto "<< endl;
                         getline(cin,contenido);

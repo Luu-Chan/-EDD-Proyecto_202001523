@@ -35,7 +35,7 @@ void Usuario::mostrarSolicitudMasReciente() const {
     if (!solicitudesRecibidas.cabeza) {
         std::cout << "No hay solicitudes de amistad.\n";
         return;
-    }
+    }>
 
     // Obtener la solicitud más reciente (al inicio de la lista)
     NodoSolicitud* solicitudMasReciente = solicitudesRecibidas.cabeza;

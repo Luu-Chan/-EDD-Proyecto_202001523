@@ -32,12 +32,9 @@ string fecha;
 int main() {
     SetConsoleOutputCP(CP_UTF8);
 
-    Usuario* prueba = new Usuario(1, "Skibidi", "Toilet", "1111/11/11", "admin", "edd");
-    Usuario* prueba2 = new Usuario(2, "Skibidi 2", "Toilet 2", "1111/11/11", "1234", "1234");
-    Usuario* prueba3 = new Usuario(1, "Tilino", "Insano", "1111/11/11", "4321", "4321");
+    Usuario* prueba = new Usuario(0, "Skibidi", "Toilet", "12/12/2012", "admin@gmail.com", "EDD2S2024");
     list.agregar(prueba);
-    list.agregar(prueba2);
-    list.agregar(prueba3);
+
 
     int opcion;
     do {
@@ -66,14 +63,13 @@ int main() {
             cout << "Ingrese sus nombres: ";
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer para que no pete
             getline(cin, nombre);
-            cout << "Ingrese sus apellidos: ";
+            cout << "Ingrese sus apellidos: " << endl;
             getline(cin, apellidos);
             cout << "Ingrese su fecha de nacimiento; DD/MM/AA: ";
             getline(cin, fecha);
-            cout << "Ingrese su correo electrónico: ";
+            cout << "Ingrese su correo electrónico: " <<endl;
             getline(cin, mail);
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            cout << "Ingrese su contraseña: ";
+            cout << "Ingrese su contraseña: " << endl;
             getline(cin, pass);
             list.registrarU(nombre, apellidos, fecha, mail, pass);
             break;
