@@ -1,0 +1,15 @@
+digraph G {
+  rankdir=LR;
+  node [shape=record];
+  subgraph cluster_0 {
+    label = "Solicitudes Enviadas";
+    color = blue;
+    "Elena" -> "Luis";
+  }
+  subgraph cluster_1 {
+    label = "Solicitudes Recibidas";
+    color = red;
+    "Jose" -> "Elena";
+    "EDD" -> "Elena";
+  }
+}

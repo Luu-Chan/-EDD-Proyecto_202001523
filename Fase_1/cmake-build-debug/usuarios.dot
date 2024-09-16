@@ -1,0 +1,24 @@
+digraph G {
+    node [shape=record];
+    nodo12 [label="{EDD Prueba|Correo: EDD\nFecha de Nacimiento: 12/12/2012\nID: 12}"];
+    nodo12 -> nodo11;
+    nodo11 [label="{Sofia Gonzalez|Correo: sofia.gonzalez@example.com\nFecha de Nacimiento: 28/06/1994\nID: 11}"];
+    nodo11 -> nodo10;
+    nodo10 [label="{Miguel Rodriguez|Correo: miguel.rodriguez@example.com\nFecha de Nacimiento: 11/03/1989\nID: 10}"];
+    nodo10 -> nodo8;
+    nodo8 [label="{Jose Garcia|Correo: jose.garcia@example.com\nFecha de Nacimiento: 14/07/1991\nID: 8}"];
+    nodo8 -> nodo7;
+    nodo7 [label="{Laura Ramirez|Correo: laura.ramirez@example.com\nFecha de Nacimiento: 05/09/1993\nID: 7}"];
+    nodo7 -> nodo6;
+    nodo6 [label="{Luis Perez|Correo: luis.perez@example.com\nFecha de Nacimiento: 09/04/1988\nID: 6}"];
+    nodo6 -> nodo5;
+    nodo5 [label="{Ana Hernandez|Correo: ana.hernandez@example.com\nFecha de Nacimiento: 30/11/1995\nID: 5}"];
+    nodo5 -> nodo4;
+    nodo4 [label="{Juan Martinez|Correo: juan.martinez@example.com\nFecha de Nacimiento: 17/02/1992\nID: 4}"];
+    nodo4 -> nodo3;
+    nodo3 [label="{Maria Lopez|Correo: maria.lopez@example.com\nFecha de Nacimiento: 23/08/1985\nID: 3}"];
+    nodo3 -> nodo2;
+    nodo2 [label="{Carlos Gomez|Correo: carlos.gomez@example.com\nFecha de Nacimiento: 12/05/1990\nID: 2}"];
+    nodo2 -> nodo0;
+    nodo0 [label="{Skibidi Toilet|Correo: admin@gmail.com\nFecha de Nacimiento: 12/12/2012\nID: 0}"];
+}

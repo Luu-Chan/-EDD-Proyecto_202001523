@@ -1,0 +1,10 @@
+# ninja log v6
+49	863	7478173221643980	Fase_2_autogen/timestamp	7a3dcadd7a2a9f05
+49	863	7478173221643980	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Fase_2_autogen/mocs_compilation.cpp	7a3dcadd7a2a9f05
+49	863	7478173221643980	Fase_2_autogen/mocs_compilation.cpp	7a3dcadd7a2a9f05
+49	863	7478173221643980	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Fase_2_autogen/timestamp	7a3dcadd7a2a9f05
+868	3345	7478173222532249	CMakeFiles/Fase_2.dir/main.cpp.obj	9010c4402cc57416
+3704	3944	7478173250889940	Fase_2.exe	323c83da8cae6b61
+865	3524	7478173222501785	CMakeFiles/Fase_2.dir/Fase_2_autogen/mocs_compilation.cpp.obj	903f2759e1c52318
+872	3704	7478173222582260	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	1c317fb2781e5245
+876	3552	7478173222612250	CMakeFiles/Fase_2.dir/Forms/formususario.cpp.obj	e3d258428fd7268e
