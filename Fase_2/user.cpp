@@ -1,6 +1,6 @@
 #include "user.h"
 #include <string>
-
+#include <iostream>
 
 
 user::user(const std::string& nombre, const std::string& apellido, const std::string& fechaN, const std::string& correoE,

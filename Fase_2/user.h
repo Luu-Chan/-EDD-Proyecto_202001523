@@ -28,6 +28,7 @@ user(const std::string& nombre, const std::string& apellido, const std::string& 
     void setcorreoE(const std::string& correoE);
     void setpass(const std::string& pass);
 
+
 };
 
 #endif // USER_H

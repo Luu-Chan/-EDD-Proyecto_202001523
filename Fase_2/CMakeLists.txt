@@ -26,6 +26,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Forms/formususario.h Forms/formususario.cpp Forms/formususario.ui
         user.h user.cpp
         arbolavl.h arbolavl.cpp
+        Forms/registrarse.h Forms/registrarse.cpp Forms/registrarse.ui
+        nodoavl.h nodoavl.cpp
+
+
 
     )
 # Define target properties for Android with Qt 6 as:
