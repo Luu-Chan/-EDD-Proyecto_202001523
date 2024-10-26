@@ -4,13 +4,14 @@
 #include "QMessageBox"
 #include "qfiledialog.h"
 
-formUser::formUser(QWidget *parent, arbolAVL *tree, ListaDoble *list, ABB *abb , const QString &correoUser )
+formUser::formUser(QWidget *parent, arbolAVL *tree, ListaDoble *list, ABB *abb, const QString &correoUser, Graph *g)
     : QDialog(parent)
     , ui(new Ui::formUser)
     , tree(tree)
     , list(list)
     , abb(abb)
     ,correoUser(correoUser)
+    ,g(g)
 
 {
     ui->setupUi(this);
@@ -281,8 +282,13 @@ void formUser::on_mostrarsol_clicked()
     std::string textr = usuarioE->mostrarSolicitudesRecibidas();
     QString add = QString::fromStdString(texte);
     QString add2 = QString::fromStdString(textr);
-    ui->textsolicitudes->append(add);
-    ui->textsolicitudes->append(add2);
+    //ui->textsolicitudes->append(add);
+    //ui->textsolicitudes->append(add2);
+    std::string suger =  g->suggestFriends(correoUser.toStdString());
+    QString add3 = QString::fromStdString(suger);
+    ui->textsolicitudes->append(add3);
+
+
 
 }
 

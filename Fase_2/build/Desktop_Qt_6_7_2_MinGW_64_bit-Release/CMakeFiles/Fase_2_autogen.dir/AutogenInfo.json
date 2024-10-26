@@ -323,6 +323,12 @@
 			null
 		],
 		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/graph.h",
+			"MU",
+			"EWIEGA46WW/moc_graph.cpp",
+			null
+		],
+		[
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/listadoble.h",
 			"MU",
 			"EWIEGA46WW/moc_listadoble.cpp",
@@ -332,6 +338,12 @@
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/nodoG.h",
+			"MU",
+			"EWIEGA46WW/moc_nodoG.cpp",
 			null
 		],
 		[
@@ -463,6 +475,11 @@
 		],
 		[
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/formuser.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/graph.cpp",
 			"MU",
 			null
 		],

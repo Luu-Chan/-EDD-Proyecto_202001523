@@ -1,9 +1,0 @@
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/Fase_2.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/install.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/install/local.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/Fase_2_autogen_timestamp_deps.dir
-C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/Fase_2_autogen.dir

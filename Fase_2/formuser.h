@@ -3,6 +3,7 @@
 
 #include "abb.h"
 #include "arbolavl.h"
+#include "graph.h"
 #include "listadoble.h"
 #include <QDialog>
 
@@ -16,7 +17,7 @@ class formUser : public QDialog
 
 public:
     explicit formUser(QWidget *parent = nullptr, arbolAVL *tree = nullptr, ListaDoble *list = nullptr ,
-                      ABB *abb = nullptr, const QString& correoUser = nullptr);
+                      ABB *abb = nullptr, const QString& correoUser = nullptr, Graph *g = nullptr);
     ~formUser();
     void setcorreoUser(const QString& correoE);
 
@@ -69,6 +70,7 @@ private:
     ListaDoble *list;
     ABB *abb;
     QString correoUser;
+    Graph *g;
 };
 
 #endif // FORMUSER_H

@@ -42,6 +42,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Comentario.h
         Stack.h
         ListaSimple.h
+        nodoG.h
+        graph.h graph.cpp
 
 
 

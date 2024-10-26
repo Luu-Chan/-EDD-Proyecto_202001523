@@ -1,96 +1,42 @@
 # ninja log v6
-64	2459	7495351244401300	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-64	2459	7495351244401300	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
-2194	5631	7495295209260057	CMakeFiles/Fase_2.dir/arbolb.cpp.obj	bffa9ffa5edffb9b
-64	2459	7495351244401300	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-64	2459	7495351244401300	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-1174	2002	7495295199062430	CMakeFiles/Fase_2.dir/nodoavl.cpp.obj	718787b1b85933f6
-246	853	7494575338509950	CMakeFiles/Fase_2.dir/user.cpp.obj	f80c867f74b2cf1
-2357	7305	7495328626224730	CMakeFiles/Fase_2.dir/arbolavl.cpp.obj	5f7c30a3bea37a6d
-2478	7588	7495351247546662	CMakeFiles/Fase_2.dir/main.cpp.obj	4edaaeda4873d01
-2461	7843	7495351247425077	CMakeFiles/Fase_2.dir/Fase_2_autogen/mocs_compilation.cpp.obj	bdcddf9d811036ec
-2489	9780	7495351247706667	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
-2483	7616	7495351247626656	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
-2521	7481	7495351248026661	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
-2511	9210	7495351247866663	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-5896	7621	7492961911296333	CMakeFiles/Fase_2.dir/nodocomentario.cpp.obj	9bd6dcf6a4e02d1d
-2516	11780	7495351247946662	CMakeFiles/Fase_2.dir/cargamasiva.cpp.obj	f9f7c4cfe0b71955
-11780	12035	7495351340616180	Fase_2.exe	8487de3e3c1362a
-1211	2193	7495295199432743	CMakeFiles/Fase_2.dir/nodolistadoble.cpp.obj	6309390dbda1a5f3
-2526	8539	7495351248026661	CMakeFiles/Fase_2.dir/listadoble.cpp.obj	5ccaa8ab2bc4b2f6
-2532	8576	7495351248106648	CMakeFiles/Fase_2.dir/abb.cpp.obj	e1ec7f5e2ebe839f
-94	2072	7496104450083811	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-94	2072	7496104450083811	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-94	2072	7496104450083811	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
-94	2072	7496104450083811	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-2092	4281	7496104451683921	CMakeFiles/Fase_2.dir/user.cpp.obj	f80c867f74b2cf1
-2103	4368	7496104451763917	CMakeFiles/Fase_2.dir/nodoavl.cpp.obj	718787b1b85933f6
-4281	5589	7496104473600175	CMakeFiles/Fase_2.dir/nodolistadoble.cpp.obj	6309390dbda1a5f3
-2098	6741	7496104451763917	CMakeFiles/Fase_2.dir/arbolavl.cpp.obj	5f7c30a3bea37a6d
-2124	7659	7496104452032779	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
-2080	7954	7496104451579568	CMakeFiles/Fase_2.dir/main.cpp.obj	4edaaeda4873d01
-5589	8018	7496104486683285	CMakeFiles/Fase_2.dir/arbolb.cpp.obj	bffa9ffa5edffb9b
-2074	8295	7496104451529567	CMakeFiles/Fase_2.dir/Fase_2_autogen/mocs_compilation.cpp.obj	bdcddf9d811036ec
-2085	8713	7496104451639579	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
-2108	9029	7496104451843926	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
-2113	9508	7496104451928773	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-4368	10685	7496104474475621	CMakeFiles/Fase_2.dir/listadoble.cpp.obj	5ccaa8ab2bc4b2f6
-6741	11891	7496104498201393	CMakeFiles/Fase_2.dir/abb.cpp.obj	e1ec7f5e2ebe839f
-2118	12530	7496104451978771	CMakeFiles/Fase_2.dir/cargamasiva.cpp.obj	f9f7c4cfe0b71955
-12531	13016	7496104556093190	Fase_2.exe	8487de3e3c1362a
-56	1513	7496105954144831	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-56	1513	7496105954144831	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-56	1513	7496105954144831	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
-56	1513	7496105954144831	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-1515	5826	7496105955691487	CMakeFiles/Fase_2.dir/Fase_2_autogen/mocs_compilation.cpp.obj	bdcddf9d811036ec
-1520	5886	7496105955702568	CMakeFiles/Fase_2.dir/main.cpp.obj	4edaaeda4873d01
-1546	6388	7496105955942572	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
-1526	6417	7496105955782608	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
-1540	7351	7496105955942572	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-1532	7811	7496105955782608	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
-7811	8085	7496106018643016	Fase_2.exe	8487de3e3c1362a
-33	240	7496108031916978	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-33	240	7496108031916978	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-33	240	7496108031916978	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
-33	240	7496108031916978	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-241	3548	7496108034002889	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
-253	3641	7496108034122994	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
-249	4323	7496108034083011	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-245	4971	7496108034043010	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
-4971	5244	7496108081295241	Fase_2.exe	8487de3e3c1362a
-33	260	7496109040803757	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-33	260	7496109040803757	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-33	260	7496109040803757	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
-33	260	7496109040803757	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-262	3733	7496109043105256	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
-276	3905	7496109043245345	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
-271	4289	7496109043195324	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-266	4885	7496109043145317	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
-4885	5119	7496109089339029	Fase_2.exe	8487de3e3c1362a
-22	230	7496111584040641	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-22	230	7496111584040641	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-22	230	7496111584040641	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
-22	230	7496111584040641	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-231	3569	7496111586132905	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
-243	3722	7496111586248024	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
-238	4436	7496111586197995	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-235	4884	7496111586168338	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
-4884	5175	7496111632663259	Fase_2.exe	8487de3e3c1362a
-32	238	7496117800948446	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-32	238	7496117800948446	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-32	238	7496117800948446	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
-32	238	7496117800948446	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
-239	2716	7496117803017427	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
-250	2853	7496117803127728	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
-246	3277	7496117803087743	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-242	3674	7496117803057711	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
-3674	3912	7496117837366888	Fase_2.exe	8487de3e3c1362a
 30	266	7496118436315259	Fase_2_autogen/timestamp	4b76bca2dc582cb4
-30	266	7496118436315259	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
 30	266	7496118436315259	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
+5589	8018	7496104486683285	CMakeFiles/Fase_2.dir/arbolb.cpp.obj	bffa9ffa5edffb9b
+30	266	7496118436315259	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
 30	266	7496118436315259	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
+2103	4368	7496104451763917	CMakeFiles/Fase_2.dir/nodoavl.cpp.obj	718787b1b85933f6
+2092	4281	7496104451683921	CMakeFiles/Fase_2.dir/user.cpp.obj	f80c867f74b2cf1
+2098	6741	7496104451763917	CMakeFiles/Fase_2.dir/arbolavl.cpp.obj	5f7c30a3bea37a6d
+1520	5886	7496105955702568	CMakeFiles/Fase_2.dir/main.cpp.obj	4edaaeda4873d01
+1515	5826	7496105955691487	CMakeFiles/Fase_2.dir/Fase_2_autogen/mocs_compilation.cpp.obj	bdcddf9d811036ec
+271	3757	7496118438720782	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
 267	2702	7496118438681139	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
 281	2957	7496118438810779	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
 276	3348	7496118438770773	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
-271	3757	7496118438720782	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
+5896	7621	7492961911296333	CMakeFiles/Fase_2.dir/nodocomentario.cpp.obj	9bd6dcf6a4e02d1d
+2118	12530	7496104451978771	CMakeFiles/Fase_2.dir/cargamasiva.cpp.obj	f9f7c4cfe0b71955
 3757	3990	7496118473586960	Fase_2.exe	8487de3e3c1362a
+4281	5589	7496104473600175	CMakeFiles/Fase_2.dir/nodolistadoble.cpp.obj	6309390dbda1a5f3
+4368	10685	7496104474475621	CMakeFiles/Fase_2.dir/listadoble.cpp.obj	5ccaa8ab2bc4b2f6
+6741	11891	7496104498201393	CMakeFiles/Fase_2.dir/abb.cpp.obj	e1ec7f5e2ebe839f
+35	934	7516116253272970	Fase_2_autogen/timestamp	4b76bca2dc582cb4
+35	934	7516116253272970	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
+35	934	7516116253272970	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
+35	934	7516116253272970	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
+961	2662	7516116254421543	CMakeFiles/Fase_2.dir/graph.cpp.obj	875d3cfdb0e6e2b9
+939	4383	7516116254202550	CMakeFiles/Fase_2.dir/main.cpp.obj	4edaaeda4873d01
+935	4519	7516116254160238	CMakeFiles/Fase_2.dir/Fase_2_autogen/mocs_compilation.cpp.obj	bdcddf9d811036ec
+943	4806	7516116254242542	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
+957	5016	7516116254381489	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
+952	5510	7516116254334346	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
+948	5931	7516116254284272	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
+5931	6247	7516116304118298	Fase_2.exe	5f9b5118fb137a56
+20	258	7516118082577632	Fase_2_autogen/timestamp	4b76bca2dc582cb4
+20	258	7516118082577632	Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
+20	258	7516118082577632	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/timestamp	4b76bca2dc582cb4
+20	258	7516118082577632	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Fase_2_autogen/mocs_compilation.cpp	4b76bca2dc582cb4
+260	4352	7516118084983804	CMakeFiles/Fase_2.dir/mainwindow.cpp.obj	e58b8fbdf52fe1ca
+273	4395	7516118085109157	CMakeFiles/Fase_2.dir/formregistro.cpp.obj	b98eaa3ff23de3b8
+268	4871	7516118085053796	CMakeFiles/Fase_2.dir/formadmin.cpp.obj	ad9c9ce93714d0dd
+264	5382	7516118085013799	CMakeFiles/Fase_2.dir/formuser.cpp.obj	f879b2fd34a1d16b
+5382	5626	7516118136203241	Fase_2.exe	5f9b5118fb137a56

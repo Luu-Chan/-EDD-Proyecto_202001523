@@ -32,7 +32,7 @@ void MainWindow::on_ingresar_clicked()
         qDebug() << "ingeso";
 
         if (!vuser) {
-            vuser = new formUser(this, &tree, &list, &abb, correoE);
+            vuser = new formUser(this, &tree, &list, &abb, correoE, &g);
         }
         else {
             vuser->setcorreoUser(correoE);
@@ -71,7 +71,7 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_registrar_clicked()
 {
     if (!registro) {
-        registro = new formregistro(this, &tree);
+        registro = new formregistro(this, &tree, &g);
     }
 
     registro->show();

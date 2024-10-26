@@ -257,9 +257,45 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/Comentario.h",
+			"MU",
+			"EWIEGA46WW/moc_Comentario.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/ListaSimple.h",
+			"MU",
+			"EWIEGA46WW/moc_ListaSimple.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/NodoABB.h",
+			"MU",
+			"EWIEGA46WW/moc_NodoABB.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/Stack.h",
+			"MU",
+			"EWIEGA46WW/moc_Stack.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/abb.h",
+			"MU",
+			"EWIEGA46WW/moc_abb.cpp",
+			null
+		],
+		[
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/arbolavl.h",
 			"MU",
 			"EWIEGA46WW/moc_arbolavl.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/arbolb.h",
+			"MU",
+			"EWIEGA46WW/moc_arbolb.cpp",
 			null
 		],
 		[
@@ -287,6 +323,12 @@
 			null
 		],
 		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/listadoble.h",
+			"MU",
+			"EWIEGA46WW/moc_listadoble.cpp",
+			null
+		],
+		[
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -296,6 +338,18 @@
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/nodoavl.h",
 			"MU",
 			"EWIEGA46WW/moc_nodoavl.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/nodocomentario.h",
+			"MU",
+			"EWIEGA46WW/moc_nodocomentario.cpp",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/nodolistadoble.h",
+			"MU",
+			"EWIEGA46WW/moc_nodolistadoble.cpp",
 			null
 		],
 		[
@@ -377,7 +431,17 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/abb.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/arbolavl.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/arbolb.cpp",
 			"MU",
 			null
 		],
@@ -402,6 +466,11 @@
 			null
 		],
 		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/listadoble.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/main.cpp",
 			"MU",
 			null
@@ -413,6 +482,16 @@
 		],
 		[
 			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/nodoavl.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/nodocomentario.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/linkm/OneDrive/Escritorio/PROYECTOS S2 2024/ESTRUCTURA DE DATOS/-EDD-Proyecto_202001523/Fase_2/nodolistadoble.cpp",
 			"MU",
 			null
 		],

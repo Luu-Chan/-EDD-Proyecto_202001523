@@ -6,6 +6,7 @@
 #include "formadmin.h"
 #include "formregistro.h"
 #include "formuser.h"
+#include "graph.h"
 #include "listadoble.h"
 #include <QMainWindow>
 
@@ -39,5 +40,6 @@ private:
     formAdmin *vadmin;
     formUser *vuser;
     formregistro *registro;
+    Graph g;
 };
 #endif // MAINWINDOW_H

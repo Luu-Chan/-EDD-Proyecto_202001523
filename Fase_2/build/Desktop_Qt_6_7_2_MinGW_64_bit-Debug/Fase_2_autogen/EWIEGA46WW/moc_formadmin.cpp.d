@@ -349,7 +349,16 @@ C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-ED
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/Comentario.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/ListaSimple.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/NodoABB.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/Stack.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/abb.h \
   C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/arbolavl.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/arbolb.h \
   C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/cargamasiva.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/listadoble.h \
   C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodoavl.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodocomentario.h \
+  C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodolistadoble.h \
   C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/user.h

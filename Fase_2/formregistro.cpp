@@ -3,10 +3,11 @@
 #include "ui_formregistro.h"
 #include "QMessageBox"
 
-formregistro::formregistro(QWidget *parent, arbolAVL *tree)
+formregistro::formregistro(QWidget *parent, arbolAVL *tree, Graph *g)
     : QDialog(parent)
     , ui(new Ui::formregistro)
     ,tree(tree)
+    ,g(g)
 {
     ui->setupUi(this);
 }
@@ -45,7 +46,7 @@ void formregistro::on_registrar_clicked()
 
     tree->insertU(nuevo);
     QMessageBox::warning(this, "Registro", "Se ha registrado correctamente.");
-
+    g->addUser(correo.toStdString());
     ui->apellidos->clear();
     ui->nombres->clear();
     ui->correo->clear();

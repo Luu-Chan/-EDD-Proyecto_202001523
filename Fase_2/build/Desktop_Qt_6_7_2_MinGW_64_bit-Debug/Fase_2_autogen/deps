@@ -519,8 +519,16 @@ Fase_2_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/CMakeLists.txt \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/Comentario.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/ListaSimple.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/NodoABB.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/Stack.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/abb.cpp \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/abb.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/arbolavl.cpp \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/arbolavl.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/arbolb.cpp \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/arbolb.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
@@ -534,11 +542,17 @@ Fase_2_autogen/timestamp: \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/formregistro.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/formuser.cpp \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/formuser.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/listadoble.cpp \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/listadoble.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/main.cpp \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/mainwindow.cpp \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/mainwindow.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodoavl.cpp \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodoavl.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodocomentario.cpp \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodocomentario.h \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodolistadoble.cpp \
+	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/nodolistadoble.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/user.cpp \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/user.h \
 	C:/Users/linkm/OneDrive/Escritorio/PROYECTOS\ S2\ 2024/ESTRUCTURA\ DE\ DATOS/-EDD-Proyecto_202001523/Fase_2/formadmin.ui \
