@@ -18,17 +18,15 @@ public:
     Graph() : head(nullptr) {}
 
     void addUser(const std::string& email);
-
     int getUserIndex(const std::string& email);
-
     void addFriendship(const std::string& email1, const std::string& email2);
-
     std::string displayFriends(const std::string& email);
-
     std::string suggestFriends(const std::string& email);
-
-
     bool isDirectFriend(Node* user, int target);
+
+    void generateAdjacencyListGraph(const std::string& filename);
+    void generateCompleteGraph(const std::string& filename);
+    void generateHighlightedGraph(const std::string& filename, const std::string& email);
 };
 
 #endif // GRAPH_H

@@ -46,7 +46,7 @@ void MainWindow::on_ingresar_clicked()
     }
     else if (correoE == "admin@gmail.com" & pass == "EDD2S2024"){
         if (!vadmin) {
-            vadmin = new formAdmin(this, &tree, &list, &abb );
+            vadmin = new formAdmin(this, &tree, &list, &abb, &g );
         }
 
         vadmin->setFixedSize(1350, 760);

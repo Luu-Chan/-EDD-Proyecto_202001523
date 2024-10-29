@@ -4,16 +4,16 @@
 #include <QFileDialog>
 #include "qmessagebox.h"
 
-formAdmin::formAdmin(QWidget *parent, arbolAVL* tree, ListaDoble *list, ABB *abb)
+formAdmin::formAdmin(QWidget *parent, arbolAVL* tree, ListaDoble *list, ABB *abb, Graph *g)
     : QDialog(parent)
     , ui(new Ui::formAdmin)
     , tree(tree)
     ,list(list)
     ,abb(abb)
-
+    ,g(g)
 {
     ui->setupUi(this);
-    cargarusuario = new cargaMasiva(tree, list, abb);
+    cargarusuario = new cargaMasiva(tree, list, abb, g);
 
 }
 
@@ -145,4 +145,30 @@ void formAdmin::on_pushButton_3_clicked()
     qDebug() << "Archivo seleccionado para carga masiva de solicitudes:" << path;
     cargarusuario->cargarS(path);
 }
+
+
+void formAdmin::on_pushButton_4_clicked()
+{
+    std::string nombre = "adyacencia";
+    g->generateAdjacencyListGraph(nombre);
+    std::string path = "C:\\Users\\linkm\\OneDrive\\Escritorio\\PROYECTOS S2 2024\\ESTRUCTURA DE DATOS\\-EDD-Proyecto_202001523\\Fase_2\\build\\Desktop_Qt_6_7_2_MinGW_64_bit-Release\\adyacencia.png" ;
+    QPixmap pixmap(QString::fromStdString(path));
+    QPixmap scaledPixmap = pixmap.scaled(352, 352, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    ui->label_ady->setPixmap(scaledPixmap);
+}
+
+
+
+
+void formAdmin::on_pushButton_6_clicked()
+{
+
+    std::string nombre = "grafo";
+    g->generateCompleteGraph(nombre);
+    std::string path = "C:\\Users\\linkm\\OneDrive\\Escritorio\\PROYECTOS S2 2024\\ESTRUCTURA DE DATOS\\-EDD-Proyecto_202001523\\Fase_2\\build\\Desktop_Qt_6_7_2_MinGW_64_bit-Release\\grafo.png" ;
+    QPixmap pixmap(QString::fromStdString(path));
+    QPixmap scaledPixmap = pixmap.scaled(352, 352, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    ui->label_g->setPixmap(scaledPixmap);
+}
+
 

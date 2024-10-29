@@ -64,6 +64,10 @@ private slots:
 
     void on_rechazars_clicked();
 
+    void on_pushButton_3_clicked();
+
+    void on_pushButton_5_clicked();
+
 private:
     Ui::formUser *ui;
     arbolAVL *tree;

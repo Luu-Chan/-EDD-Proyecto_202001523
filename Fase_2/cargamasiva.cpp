@@ -5,10 +5,11 @@
 #include <QDebug>
 #include <QTextStream>
 
-cargaMasiva::cargaMasiva(arbolAVL* tree, ListaDoble *list, ABB *abb) :
+cargaMasiva::cargaMasiva(arbolAVL* tree, ListaDoble *list, ABB *abb, Graph *g) :
     tree(tree)
     , list(list)
-    , abb(abb){}
+    , abb(abb)
+    , g(g){}
 
 void cargaMasiva::cargarU(const QString& rutaArchivo) {
     QFile archivo(rutaArchivo);
@@ -35,6 +36,7 @@ void cargaMasiva::cargarU(const QString& rutaArchivo) {
         user* usuario = new user(nombres.toStdString(), apellidos.toStdString(), fechaNacimiento.toStdString(),
                                  correo.toStdString(), contrasena.toStdString());
         tree->insertU(usuario);
+        g->addUser(correo.toStdString());
         qDebug() << " se agrego:  "<< correo ;
     }
     qDebug() << "carga completa" ;
@@ -127,6 +129,7 @@ void cargaMasiva::cargarS(const QString& ruta){
             }
             else if(estado == "ACEPTADA"){
                 qDebug() << "Solicitud Aceptada";
+                g->addFriendship(emisor.toStdString(), receptor.toStdString());
             }
 
         }

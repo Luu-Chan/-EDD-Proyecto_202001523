@@ -1,0 +1,19 @@
+graph G {
+  "pn@example.com" -- "ev@example.com";
+  "dc@example.com" -- "rm@example.com";
+  "ls@example.com" -- "ml@example.com";
+  "ev@example.com" -- "ah@example.com";
+  "jp@example.com" -- "lr@example.com";
+  "jp@example.com" -- "pg@example.com";
+  "jp@example.com" -- "ah@example.com";
+  "jp@example.com" -- "ml@example.com";
+  "sg@example.com" -- "pg@example.com";
+  "sg@example.com" -- "ah@example.com";
+  "sg@example.com" -- "ml@example.com";
+  "md@example.com" -- "cg@example.com";
+  "lr@example.com" -- "cg@example.com";
+  "pg@example.com" -- "cg@example.com";
+  "ah@example.com" -- "ml@example.com";
+  "ah@example.com" -- "cg@example.com";
+  "ml@example.com" -- "cg@example.com";
+}

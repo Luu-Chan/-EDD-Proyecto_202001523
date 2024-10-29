@@ -33,6 +33,7 @@ public:
     std::string mostrarInOrder();
     std::string mostrarPostOrder();
     void graficar(const std::string& nombreArchivo);
+    bool editarUsuario(const std::string& correo, user& datosActualizados);
 };
 
 #endif // ARBOLAVL_H

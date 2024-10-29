@@ -2,6 +2,7 @@
 #define FORMADMIN_H
 #include "abb.h"
 #include "cargamasiva.h"
+#include "graph.h"
 #include "listadoble.h"
 #include <QDialog>
 
@@ -14,7 +15,7 @@ class formAdmin : public QDialog
     Q_OBJECT
 
 public:
-    explicit formAdmin(QWidget *parent = nullptr, arbolAVL* tree = nullptr, ListaDoble *list = nullptr, ABB *abb = nullptr ) ;
+    explicit formAdmin(QWidget *parent = nullptr, arbolAVL* tree = nullptr, ListaDoble *list = nullptr, ABB *abb = nullptr, Graph *g = nullptr ) ;
     ~formAdmin();
 
 private slots:
@@ -40,12 +41,17 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+    void on_pushButton_4_clicked();
+
+    void on_pushButton_6_clicked();
+
 private:
     Ui::formAdmin *ui;
     arbolAVL* tree;
     ListaDoble *list;
     ABB *abb;
     cargaMasiva* cargarusuario;
+    Graph *g;
 
 };
 

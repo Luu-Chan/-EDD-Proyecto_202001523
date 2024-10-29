@@ -1,0 +1,38 @@
+graph G {
+  "pn@example.com" -- "ev@example.com";
+  "dc@example.com" -- "rm@example.com";
+  "ls@example.com" -- "ml@example.com";
+  "ev@example.com" -- "ah@example.com";
+  "jp@example.com" -- "lr@example.com";
+  "jp@example.com" -- "pg@example.com";
+  "jp@example.com" -- "ah@example.com";
+  "jp@example.com" -- "ml@example.com";
+  "sg@example.com" -- "pg@example.com";
+  "sg@example.com" -- "ah@example.com";
+  "sg@example.com" -- "ml@example.com";
+  "md@example.com" -- "cg@example.com";
+  "lr@example.com" -- "cg@example.com";
+  "pg@example.com" -- "cg@example.com";
+  "ah@example.com" -- "ml@example.com";
+  "ah@example.com" -- "cg@example.com";
+  "ml@example.com" -- "cg@example.com";
+  "cg@example.com" [style=filled, fillcolor=lightblue, color=blue, fontcolor=white];
+  "md@example.com" [style=filled, fillcolor=lightgreen, color=green];
+  "cg@example.com" -- "md@example.com" [color=green];
+  "lr@example.com" [style=filled, fillcolor=lightgreen, color=green];
+  "cg@example.com" -- "lr@example.com" [color=green];
+  "pg@example.com" [style=filled, fillcolor=lightgreen, color=green];
+  "cg@example.com" -- "pg@example.com" [color=green];
+  "ah@example.com" [style=filled, fillcolor=lightgreen, color=green];
+  "cg@example.com" -- "ah@example.com" [color=green];
+  "ml@example.com" [style=filled, fillcolor=lightgreen, color=green];
+  "cg@example.com" -- "ml@example.com" [color=green];
+  "ls@example.com" [style=filled, fillcolor=yellow];
+  "cg@example.com" -- "ls@example.com" [style=dashed, color=orange];
+  "ev@example.com" [style=filled, fillcolor=yellow];
+  "cg@example.com" -- "ev@example.com" [style=dashed, color=orange];
+  "sg@example.com" [style=filled, fillcolor=goldenrod];
+  "cg@example.com" -- "sg@example.com" [style=dashed, color=orange];
+  "jp@example.com" [style=filled, fillcolor=goldenrod];
+  "cg@example.com" -- "jp@example.com" [style=dashed, color=orange];
+}

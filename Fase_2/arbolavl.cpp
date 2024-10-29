@@ -325,3 +325,16 @@ void arbolAVL::graficar(const std::string& nombreArchivo) {
 
     }
 }
+
+
+bool arbolAVL::editarUsuario(const std::string& correo,  user& datosActualizados) {
+    NodoAVL* nodoAEditar = searchNode(raiz, correo);
+
+    if (nodoAEditar != nullptr) {
+        // Actualizar los datos del usuario
+        nodoAEditar->usuario = &datosActualizados;
+        return true;  // Se realizó la edición exitosamente
+    } else {
+        return false;  // No se encontró el usuario con el correo dado
+    }
+}

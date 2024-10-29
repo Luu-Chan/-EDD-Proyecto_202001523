@@ -29,6 +29,10 @@ void formUser::setcorreoUser(const QString& correoE)
 
 void formUser::on_pushButton_2_clicked()
 {
+    ui->textsolicitudes->clear();
+    std::string suger =  g->displayFriends(correoUser.toStdString());
+    QString add3 = QString::fromStdString(suger);
+    ui->textsolicitudes->append(add3);
 
 
 }
@@ -42,6 +46,10 @@ void formUser::on_salir_clicked()
 
 void formUser::on_pushButton_clicked()
 {
+    ui->textsolicitudes->clear();
+    std::string suger =  g->suggestFriends(correoUser.toStdString());
+    QString add3 = QString::fromStdString(suger);
+    ui->textsolicitudes->append(add3);
 
 }
 
@@ -261,9 +269,11 @@ void formUser::on_enviarsol_clicked()
     if(ui->correoBuscar->text() != ""){
         user* usuarioE = tree->searchU(correoUser.toStdString());
         user* usuarioR = tree->searchU(ui->correoBuscar->text().toStdString());
+        std::string rep =  ui->correoBuscar->text().toStdString();
 
         usuarioE->enviarSolicitud(usuarioR);
         usuarioR->recibirSolicitud(correoUser.toStdString());
+        g->addFriendship(correoUser.toStdString(), rep);
         QMessageBox::information(this, "", "Se envio la solicitud" );
 
 
@@ -282,11 +292,9 @@ void formUser::on_mostrarsol_clicked()
     std::string textr = usuarioE->mostrarSolicitudesRecibidas();
     QString add = QString::fromStdString(texte);
     QString add2 = QString::fromStdString(textr);
-    //ui->textsolicitudes->append(add);
-    //ui->textsolicitudes->append(add2);
-    std::string suger =  g->suggestFriends(correoUser.toStdString());
-    QString add3 = QString::fromStdString(suger);
-    ui->textsolicitudes->append(add3);
+    ui->textsolicitudes->append(add);
+    ui->textsolicitudes->append(add2);
+
 
 
 
@@ -308,5 +316,40 @@ void formUser::on_rechazars_clicked()
     usuarioE->rechazarSolicitud();
     QMessageBox::information(this, "", "Se Rechazo la solicitud");
 
+}
+
+
+void formUser::on_pushButton_3_clicked()
+{
+    std::string nombre = "sugerencias";
+    g->generateHighlightedGraph(nombre, correoUser.toStdString());
+    std::string path = "C:\\Users\\linkm\\OneDrive\\Escritorio\\PROYECTOS S2 2024\\ESTRUCTURA DE DATOS\\-EDD-Proyecto_202001523\\Fase_2\\build\\Desktop_Qt_6_7_2_MinGW_64_bit-Release\\sugerencias.png" ;
+    QPixmap pixmap(QString::fromStdString(path));
+    QPixmap scaledPixmap = pixmap.scaled(352, 352, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    ui->label_8->setPixmap(scaledPixmap);
+}
+
+
+
+void formUser::on_pushButton_5_clicked()
+{
+    QString nombre = ui->nombres->text();
+    QString apellido = ui->apellidos->text();
+    QString pass = ui->pass->text();
+    QString fecha = ui->dateEdit->date().toString();
+
+    if (nombre.isEmpty() || apellido.isEmpty() || pass.isEmpty() || fecha.isEmpty()) {
+        QMessageBox::warning(this, "Error", "Rellene todos los campos.");
+        return;
+    }
+
+    user* nuevo = new user(nombre.toStdString(), apellido.toStdString(), fecha.toStdString(), correoUser.toStdString(), pass.toStdString());
+
+    tree->editarUsuario(correoUser.toStdString(), *nuevo);
+    QMessageBox::warning(this, "Alerta", "Se ha modificado tu Usuario.");
+
+    ui->apellidos->clear();
+    ui->nombres->clear();
+    ui->pass->clear();
 }
 
